@@ -219,5 +219,15 @@ public class RegistrationTests extends TestBase{
         Assert.assertFalse(app.getHelperUser().isLogged());
 
     }
-
+    @Test
+    public void registrationRegisteredUser(){
+        User user = new User()
+                .setEmail("tmmmmmtttt@gmail.com")
+                .setPassword("Qwerty!12");
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm(user);
+        app.getHelperUser().submitRegistration();
+        Assert.assertTrue(app.getHelperUser().isAlertPresent("User already exist"));
+        Assert.assertFalse(app.getHelperUser().isLogged());
+    }
 }
