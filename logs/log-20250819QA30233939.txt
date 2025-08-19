@@ -1,0 +1,114 @@
+3229 INFO  manager.ApplicationManager -- All tests runs in Chrome Browser
+4877 INFO  manager.ApplicationManager -- The link --->https://telranedu.web.app/home
+10333 INFO  tests.TestBase -- Before method login with test data -> email:tmmmmmtttt@gmail.com, password: Qwerty!12
+10339 INFO  tests.TestBase -- Name of method-->addContactTestAllFields
+12098 INFO  tests.TestBase -- test data contact->Contact(name=Tony1507, lastName=Molly, phone=3434343431507, email=molly1507@gmail.com, address=Haifa, description=all fields)
+13569 INFO  tests.TestBase -- Assert check contact name
+13608 INFO  tests.TestBase -- Assert check contact phone
+13611 INFO  tests.TestBase -- Name of method-->addContactTestReqFields
+14166 INFO  tests.TestBase -- test data contact->Contact(name=TonyReq, lastName=Molly, phone=3434343431957, email=molly1957@gmail.com, address=Haifa, description=null)
+15273 INFO  tests.TestBase -- Assert check contact name
+15315 INFO  tests.TestBase -- Assert check contact phone
+15316 INFO  tests.TestBase -- Name of method-->addContactTestWrongAddress
+15867 INFO  tests.TestBase -- test data contact->Contact(name=Tony, lastName=Molly, phone=343434343344, email=molly@gmail.com, address=, description=wrong address)
+15913 INFO  tests.TestBase -- Assert check is add page still displayed
+15914 INFO  tests.TestBase -- Name of method-->addContactTestWrongEmail
+16589 INFO  tests.TestBase -- test data contact->Contact(name=Tony, lastName=Molly, phone=343434343344, email=mollygmail.com, address=Haifa, description=wrong email)
+16623 INFO  tests.TestBase -- Assert check is add page still displayed
+17170 INFO  tests.TestBase -- Assert check is alert present-> Email not valid: 
+17171 INFO  tests.TestBase -- Name of method-->addContactTestWrongLastName
+17930 INFO  tests.TestBase -- test data contact->Contact(name=Tony, lastName=, phone=343434343344, email=molly@gmail.com, address=Haifa, description=wrong last name)
+17965 INFO  tests.TestBase -- Assert check is add page still displayed
+17966 INFO  tests.TestBase -- Name of method-->addContactTestWrongName
+18634 INFO  tests.TestBase -- test data contact->Contact(name=, lastName=Molly, phone=343434343344, email=molly@gmail.com, address=Haifa, description=wrong name)
+18675 INFO  tests.TestBase -- Assert check is add page still displayed
+18676 INFO  tests.TestBase -- Name of method-->addContactTestWrongPhone
+19335 INFO  tests.TestBase -- test data contact->Contact(name=Tony, lastName=Molly, phone=, email=molly@gmail.com, address=Haifa, description=wrong phone)
+19377 INFO  tests.TestBase -- Assert check is add page still displayed
+19890 INFO  tests.TestBase -- Assert check is alert present-> Phone not valid.... 
+19895 INFO  tests.TestBase -- Name of method-->loginSuccess
+19950 INFO  tests.TestBase -- Before method finished logout
+19951 INFO  tests.TestBase -- Test data -> email:tmmmmmtttt@gmail.com, password: Qwerty!12
+20625 INFO  tests.TestBase -- Assert check is Element button 'Sign out' present
+20627 INFO  tests.TestBase -- Name of method-->loginSuccessModel
+20668 INFO  tests.TestBase -- Before method finished logout
+20668 INFO  tests.TestBase -- Test data -> email:tmmmmmtttt@gmail.com, password: Qwerty!12
+21615 INFO  tests.TestBase -- Assert check is Element button 'Sign out' present
+21616 INFO  tests.TestBase -- Name of method-->loginSuccessWithClassUser
+21656 INFO  tests.TestBase -- Before method finished logout
+21656 INFO  tests.TestBase -- Test data -> email:tmmmmmtttt@gmail.com, password: Qwerty!12
+23214 INFO  tests.TestBase -- Assert check is Element button 'Sign out' present
+23216 INFO  tests.TestBase -- Name of method-->loginUnregisteredUser
+23256 INFO  tests.TestBase -- Before method finished logout
+23257 INFO  tests.TestBase -- Test data -> email:tmmmmmtttt@gmail.com, password: Qwerty!12
+24048 INFO  tests.TestBase -- Assert check is Alert present with error text 'Wrong email or password'
+24050 INFO  tests.TestBase -- Name of method-->loginWrongEmail
+29068 INFO  tests.TestBase -- Test data -> email:tmmmmmttttgmail.com, password: Qwerty!12
+30404 INFO  tests.TestBase -- Assert check is Alert present with error text 'Wrong email or password'
+30408 INFO  tests.TestBase -- Name of method-->loginWrongPassword
+35451 INFO  tests.TestBase -- Test data -> email:tmmmmmtttt@gmail.com, password: Qwert
+36279 INFO  tests.TestBase -- Assert check is Alert present with error text 'Wrong email or password'
+36281 INFO  tests.TestBase -- Name of method-->BugRegistrationWrongEmailWithChar
+41584 INFO  tests.TestBase -- test data user->User{email='qwerty2420!@gmail.com', password='Qwerty!23'}
+51803 INFO  tests.TestBase -- Name of method-->RegistrationSuccessWithClassUser
+51857 INFO  tests.TestBase -- Before method finished logout
+52137 INFO  tests.TestBase -- test data user->User{email='qwerty2431@gmail.com', password='Qwerty!23'}
+52524 INFO  tests.TestBase -- Assert check is Element button 'Sign out' present
+52786 INFO  tests.TestBase -- Assert check text->  is No Contacts Here
+52788 INFO  tests.TestBase -- Name of method-->RegistrationSuccessWithClassUser2
+52826 INFO  tests.TestBase -- Before method finished logout
+53082 INFO  tests.TestBase -- test data user->User{email='2432@gmail.com', password='Qwerty!23'}
+53523 INFO  tests.TestBase -- Assert check is Element button 'Sign out' present
+53525 INFO  tests.TestBase -- Name of method-->RegistrationSuccessWithClassUser3
+53575 INFO  tests.TestBase -- Before method finished logout
+53818 INFO  tests.TestBase -- test data user->User{email='qwerty_2433@gmail.com', password='Qwerty!23'}
+54211 INFO  tests.TestBase -- Assert check is Element button 'Sign out' present
+54212 INFO  tests.TestBase -- Name of method-->registrationEmptyEmail
+54255 INFO  tests.TestBase -- Before method finished logout
+54505 INFO  tests.TestBase -- test data user->User{email='', password='Qwerty!23'}
+55050 INFO  tests.TestBase -- Assert check is alert present-> Wrong email or password format 
+60091 INFO  tests.TestBase -- Assert check is Element button 'Sign out' not present
+60094 INFO  tests.TestBase -- Name of method-->registrationEmptyPassword
+65393 INFO  tests.TestBase -- test data user->User{email='qwerty123098@gmail.com', password=''}
+65939 INFO  tests.TestBase -- Assert check is alert present-> Wrong email or password format 
+70998 INFO  tests.TestBase -- Assert check is Element button 'Sign out' not present
+71000 INFO  tests.TestBase -- Name of method-->registrationRegisteredUser
+76301 INFO  tests.TestBase -- test data user->User{email='tmmmmmtttt@gmail.com', password='Qwerty!12'}
+76846 INFO  tests.TestBase -- Assert check is alert present-> User already exist: 
+81860 INFO  tests.TestBase -- Assert check is Element button 'Sign out'not  present
+81861 INFO  tests.TestBase -- Name of method-->registrationWrongEmailOneCharAfterAt
+87185 INFO  tests.TestBase -- test data user->User{email='qwerty2466@', password='Qwerty!23'}
+87728 INFO  tests.TestBase -- Assert check is alert present-> Wrong email or password format 
+92766 INFO  tests.TestBase -- Assert check is Element button 'Sign out' not present
+92768 INFO  tests.TestBase -- Name of method-->registrationWrongEmailOneCharBeforeAt
+98054 INFO  tests.TestBase -- test data user->User{email='@2477', password='Qwerty!23'}
+98606 INFO  tests.TestBase -- Assert check is alert present-> Wrong email or password format 
+103635 INFO  tests.TestBase -- Assert check is Element button 'Sign out' not present
+103637 INFO  tests.TestBase -- Name of method-->registrationWrongEmailWithAts
+108926 INFO  tests.TestBase -- test data user->User{email='qwerty2488@@gmail.com', password='Qwerty!23'}
+109469 INFO  tests.TestBase -- Assert check is alert present-> Wrong email or password format 
+114510 INFO  tests.TestBase -- Assert check is Element button 'Sign out' not present
+114511 INFO  tests.TestBase -- Name of method-->registrationWrongEmailWithSpase
+119823 INFO  tests.TestBase -- test data user->User{email='qwerty2499 @gmail.com', password='Qwerty!23'}
+120367 INFO  tests.TestBase -- Assert check is alert present-> Wrong email or password format 
+125404 INFO  tests.TestBase -- Assert check is Element button 'Sign out' not present
+125406 INFO  tests.TestBase -- Name of method-->registrationWrongEmailWithoutAt
+130706 INFO  tests.TestBase -- test data user->User{email='qwerty2510gmail.com', password='Qwerty!23'}
+131251 INFO  tests.TestBase -- Assert check is alert present-> Wrong email or password format 
+136286 INFO  tests.TestBase -- Assert check is Element button 'Sign out' not present
+136288 INFO  tests.TestBase -- Name of method-->registrationWrongPasswordWithoutDigit
+141572 INFO  tests.TestBase -- test data user->User{email='qwerty2520@gmail.com', password='Qwerty!!!'}
+142119 INFO  tests.TestBase -- Assert check is alert present-> Wrong email or password format 
+147153 INFO  tests.TestBase -- Assert check is Element button 'Sign out' not present
+147155 INFO  tests.TestBase -- Name of method-->registrationWrongPasswordWithoutLower
+152502 INFO  tests.TestBase -- test data user->User{email='qwerty2531@gmail.com', password='QWERTY!23'}
+153060 INFO  tests.TestBase -- Assert check is alert present-> Wrong email or password format 
+158093 INFO  tests.TestBase -- Assert check is Element button 'Sign out' not present
+158094 INFO  tests.TestBase -- Name of method-->registrationWrongPasswordWithoutSymbol
+163415 INFO  tests.TestBase -- test data user->User{email='qwerty2542@gmail.com', password='Qwerty123'}
+163961 INFO  tests.TestBase -- Assert check is alert present-> Wrong email or password format 
+169004 INFO  tests.TestBase -- Assert check is Element button 'Sign out' not present
+169007 INFO  tests.TestBase -- Name of method-->registrationWrongPasswordWithoutUpper
+174325 INFO  tests.TestBase -- test data user->User{email='qwerty2553@gmail.com', password='qwerty!23'}
+174867 INFO  tests.TestBase -- Assert check is alert present-> Wrong email or password format 
+179894 INFO  tests.TestBase -- Assert check is Element button 'Sign out' not present
